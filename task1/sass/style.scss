@@ -1,0 +1,66 @@
+$primaryFont : 'Poppins', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primaryFont;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.gridContainer{
+    display: flex;
+
+    margin-top: 200px;
+}
+
+.gridContainer .col-3{
+    padding: 10px;
+    .grid-item-content{
+        box-shadow: 0 0 10px .1px rgb(218, 218, 218);
+        padding: 35px;
+        border-radius: 0 30px 30px 30px;
+        i{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            font-size: 40px;
+            color: rgb(62, 160, 114);
+            background-color: rgba(216, 240, 250, 0.39);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0 50% 50% 50%;
+            margin-bottom: 25px;
+        }
+        h3{
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        p{
+            font-weight: 100;
+            font-size: 14px;
+        }
+    }
+}
+
+
